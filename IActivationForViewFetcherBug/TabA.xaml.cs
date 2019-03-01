@@ -4,7 +4,7 @@ using ReactiveUI;
 
 namespace IActivationForViewFetcherBug
 {
-    public partial class TabA : IActivatable
+    public partial class TabA
     {
         public TabA()
         {
