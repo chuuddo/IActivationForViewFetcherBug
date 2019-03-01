@@ -4,9 +4,13 @@ using ReactiveUI;
 
 namespace IActivationForViewFetcherBug
 {
-    public partial class TabA
+    public class TabDBase : ReactiveUserControl<TabDViewModel>
     {
-        public TabA()
+    }
+
+    public partial class TabD
+    {
+        public TabD()
         {
             InitializeComponent();
             this.WhenActivated(d =>
@@ -17,7 +21,7 @@ namespace IActivationForViewFetcherBug
         }
     }
 
-    public class TabAViewModel : ReactiveObject
+    public class TabDViewModel : ReactiveObject
     {
     }
 }

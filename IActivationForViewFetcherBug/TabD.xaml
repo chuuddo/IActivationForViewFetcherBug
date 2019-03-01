@@ -1,0 +1,9 @@
+﻿<local:TabDBase
+    x:Class="IActivationForViewFetcherBug.TabD"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:IActivationForViewFetcherBug">
+    <Grid>
+        <TextBlock>Tab D</TextBlock>
+    </Grid>
+</local:TabDBase>
