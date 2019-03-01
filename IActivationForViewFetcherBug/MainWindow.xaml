@@ -15,6 +15,9 @@
             <TabItem Header="Tab B">
                 <local:TabB />
             </TabItem>
+            <TabItem Header="Tab C">
+                <local:TabC />
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>

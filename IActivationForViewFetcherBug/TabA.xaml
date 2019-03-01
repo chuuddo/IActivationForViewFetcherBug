@@ -5,5 +5,7 @@
     xmlns:iActivationForViewFetcherBug="clr-namespace:IActivationForViewFetcherBug"
     xmlns:reactiveUi="http://reactiveui.net"
     x:TypeArguments="iActivationForViewFetcherBug:TabAViewModel">
-    <Grid />
+    <Grid>
+        <TextBlock>Tab A</TextBlock>
+    </Grid>
 </reactiveUi:ReactiveUserControl>
